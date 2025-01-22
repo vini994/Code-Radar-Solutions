@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d\t%d\t",&a,&b);
-    printf("%d",a+b);
+    printf("sum: %d",a+b);
     return 0;
 }
