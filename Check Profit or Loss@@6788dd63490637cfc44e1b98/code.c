@@ -11,7 +11,10 @@ int main() {
         printf("Loss");
     }else if(y>x){
         printf("Profit");
-    }else{
+    }else if(x==y){
+        printf("No Profit NO Loss")
+    }
+    else{
         printf("No Profit");
     }
     return 0;
