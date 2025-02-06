@@ -1,40 +1,20 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    char a[20];
+    char a;
     scanf("%c",&a);
-    switch(a){
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-        case 'A':
-        case 'E':
-        case 'I':
-        case 'O':
-        case 'U':
+    if((a>=65 && a<=90) || (a>=97 && a<=122)){
+        if(a==97 || a==101 || a==105 || a==111 || a==117 || a==65 || a==69 || a==79 || a==85 || a==73){
             printf("Vowel");
-            break;
-        case '0':
-        case '1':
-        case '2':
-        case '3':
-        case '4':
-        case '5':
-        case '6':
-        case '7':
-        case '8':
-        case '9':   
+        }
+        else{
             printf("Consonant");
-            break;
-        default:
-            printf("Special Character");
-        
+        }
+    }
+    else if(a>=48 && a<=57){
+        printf("Digit");
+    }
+    else{
+        printf("Special Character");
     }
     return 0;
 }
