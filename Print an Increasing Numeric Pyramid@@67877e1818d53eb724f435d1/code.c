@@ -16,7 +16,7 @@ int main() {
         }
         k++;
         for(int g=1;g<l+1;g++){
-            printf("%d",g);       
+            printf("%d ",g);       
         }
         l+=2;
         printf("\n");
