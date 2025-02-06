@@ -8,11 +8,11 @@ int main() {
     int x,y;
     scanf("%d %d",&x,&y);
     if(x>y){
-        printf("Loss")
+        printf("Loss");
     }else if(y>x){
-        printf("Profit")
+        printf("Profit");
     }else{
-        printf("No Profit")
+        printf("No Profit");
     }
     return 0;
 }
