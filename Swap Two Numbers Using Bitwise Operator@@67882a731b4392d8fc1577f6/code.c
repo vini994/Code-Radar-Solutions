@@ -7,9 +7,9 @@ void swap(int a, int b) {
 }
 
 int main() {
-    int x = 5, y = 10;
+    int x,y;
 
-    printf("%d %d\n", x, y);
+    
     swap(&x, &y);
     printf("%d %d", x, y);
 
