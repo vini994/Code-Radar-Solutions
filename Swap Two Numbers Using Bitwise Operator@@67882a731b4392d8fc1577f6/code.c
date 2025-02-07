@@ -8,10 +8,7 @@ void swap(int a, int b) {
 
 int main() {
     int x,y;
-
-    
     swap(&x, &y);
     printf("%d %d", x, y);
-
     return 0;
 }
