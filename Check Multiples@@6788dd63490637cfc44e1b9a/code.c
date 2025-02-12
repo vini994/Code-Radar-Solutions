@@ -2,9 +2,9 @@
 
 int main()
 {
-    int x ;
-    scanf("%d",&x);
-    if(x%10 == 0 && x%5 == 0 ){
+    int x,y ;
+    scanf("%d %d",&x,&y);
+    if(x%y == 0){
         printf("Yes");
     }else{
         printf("No");
