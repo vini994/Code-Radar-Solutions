@@ -11,7 +11,7 @@ int main()
     }else if(x%5 == 0){
         printf("Divisible by 5");
     }else{
-        printf("NOt Divisible");
+        printf("Not Divisible");
     }
 
     return 0;
