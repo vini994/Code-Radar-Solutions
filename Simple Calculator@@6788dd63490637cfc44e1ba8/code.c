@@ -18,19 +18,18 @@ int main() {
             printf(num1 * num2);
             break;
         case '/': 
-            if (num2 != 0)
-                printf(num1 / num2);
-            else
-                printf("Error! Division by zero is not allowed.\n");
+            if (num2 != 0) printf(num1 / num2);
+                
+            else printf("Error! Division by zero is not allowed");
+                
             break;
         case '%': 
-            if (num2 != 0)
-                printf(num1 % num2);
-            else
-                printf("Error! Modulo by zero is not allowed.\n");
+            if (num2 != 0) printf(num1 % num2);
+                
+            else printf("Error! Modulo by zero is not allowed.\n")
             break;
         default: 
-            printf("Invalid operator! Please use +, -, *, /, or %.\n");
+            printf("Invalid operator! Please use +, -, *, /, or %");
     }
 
     return 0;
