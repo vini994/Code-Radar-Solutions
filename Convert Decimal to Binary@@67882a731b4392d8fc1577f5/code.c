@@ -3,7 +3,7 @@
 void convertToBinary(int num) {
     while (num > 0) {
         printf("%d", num & 1); 
-        num = num << 1;        
+        num = num >> 1;        
     }
 }
 
@@ -17,7 +17,7 @@ int main() {
         printf("0");
     } else {
         convertToBinary(num);
-
+        printf("\n");
     }
 
     return 0;
