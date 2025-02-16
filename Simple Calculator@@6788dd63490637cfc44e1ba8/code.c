@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &num2);
     scanf("%c", &op);
     // Perform the operation
-    switch(op) {
+    switch(op){
         case '+': 
             printf(num1 + num2);
             break;
@@ -18,15 +18,18 @@ int main() {
             printf(num1 * num2);
             break;
         case '/': 
-            if (num2 != 0) printf(num1 / num2);
-                
-            else printf("Error! Division by zero is not allowed");
-                
+            if (num2 != 0) {
+                printf(num1 / num2);
+            }else{
+                printf("Error! Division by zero is not allowed");
+            }    
             break;
         case '%': 
-            if (num2 != 0) printf(num1 % num2);
+            if (num2 != 0){
+                printf(num1 % num2);
+            }
                 
-            else printf("Error! Modulo by zero is not allowed.\n")
+            else printf("Error! Modulo by zero is not allowed.\n");
             break;
         default: 
             printf("Invalid operator! Please use +, -, *, /, or %");
