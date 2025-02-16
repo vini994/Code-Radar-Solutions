@@ -5,8 +5,7 @@ int main() {
     char op;
 
     scanf("%d", &num1);
-    scanf(" %c", &op); // Notice the space before %c to consume any whitespace
-
+    scanf("%c", &op); 
     scanf("%d", &num2);
 
     // Perform the operation
