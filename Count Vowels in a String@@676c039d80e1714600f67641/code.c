@@ -4,11 +4,11 @@
 
 int main() {
     char a;
-    scanf("%c",a);
+    scanf("%s",a);
     int n = strlen(a);
     int count = 0;
     for (int i=0;i<=n-1;i++){
-        if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             count++;
         }
     }
