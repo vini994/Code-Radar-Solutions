@@ -26,13 +26,7 @@ int main() {
     return 0;
 }
 
-        for(i=0;i<=n;i++){
-            arra[]
-        }
-    }
-
-    return 0;
-}
+    
 
 
 
